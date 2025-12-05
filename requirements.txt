@@ -1,0 +1,26 @@
+# CyberMonitor Requirements
+# Core dependencies (always required)
+requests>=2.28.0
+
+# AWS Support (optional - install for AWS scanning)
+boto3>=1.26.0
+
+# Azure Support (optional - install for Azure scanning)
+# azure-identity>=1.12.0
+# azure-mgmt-storage>=21.0.0
+
+# Terraform/IaC Scanning (optional)
+python-hcl2>=4.3.0
+
+# Machine Learning (optional - for advanced anomaly detection)
+# scikit-learn>=1.2.0
+# xgboost>=1.7.0
+# pandas>=1.5.0
+# numpy>=1.24.0
+
+# Development & Testing
+pytest>=7.2.0
+pytest-mock>=3.10.0
+
+# Type checking (optional)
+# mypy>=1.0.0
